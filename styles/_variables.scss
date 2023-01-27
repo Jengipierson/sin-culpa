@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;800&display=swap');
+
+$fontKanit: 'Kanit', sans-serif;
+
+$mainColor: #d743f5;
+$secondaryColor: #972262;
+
+%iconitos {
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: red;
+    }
+}
